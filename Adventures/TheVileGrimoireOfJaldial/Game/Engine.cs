@@ -6,6 +6,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Linq;
 using Eamon.Framework;
 using Eamon.Framework.Primitive.Classes;
 using Eamon.Framework.Primitive.Enums;
@@ -143,6 +144,80 @@ namespace TheVileGrimoireOfJaldial.Game
 			}
 		}
 
+		public override void MonsterSmiles(IMonster monster)
+		{
+			Debug.Assert(monster != null);
+
+			var rl = RollDice(1, 100, 0);
+
+			// Giant rat
+
+			if (monster.Uid == 1)
+			{
+				Globals.Out.Write("{0}{1} {2} at you.", Environment.NewLine, monster.GetTheName(true), rl > 80 ? "squeals" : rl > 50 ? "squeaks" : "hisses");
+			}
+
+			// Skeleton/Gargoyle
+
+			else if ((monster.Uid == 3 || monster.Uid == 8) && rl > 50)
+			{
+				Globals.Out.Write("{0}{1} hisses at you.", Environment.NewLine, monster.GetTheName(true));
+			}
+
+			// Zombie
+
+			else if (monster.Uid == 4 && rl > 50)
+			{
+				Globals.Out.Write("{0}{1} snarls at you.", Environment.NewLine, monster.GetTheName(true));
+			}
+
+			// Ghoul/Ghast
+
+			else if (monster.Uid == 6 || monster.Uid == 7)
+			{
+				Globals.Out.Write("{0}{1} {2} at you.", Environment.NewLine, monster.GetTheName(true), rl > 80 ? "hisses" : rl > 50 ? "snarls" : "growls");
+			}
+
+			// Shadow/Specter/Wraith/Dark Hood/Animated suit of armor
+
+			else if (monster.Uid == 9 || monster.Uid == 14 || monster.Uid == 16 || monster.Uid == 21 || monster.Uid == 23)
+			{
+				Globals.Out.Write("{0}{1} gestures at you.", Environment.NewLine, monster.GetTheName(true));
+			}
+
+			// Pocket dragon/Giant crayfish/Giant scorpion
+
+			else if ((monster.Uid == 24 && monster.Friendliness != Friendliness.Neutral) || monster.Uid == 37 || monster.Uid == 39)
+			{
+				Globals.Out.Write("{0}{1} hisses at you.", Environment.NewLine, monster.GetTheName(true));
+			}
+
+			// Griffin/Small griffin
+
+			else if (monster.Uid == 40 || (monster.Uid == 41 && monster.Friendliness != Friendliness.Neutral))
+			{
+				Globals.Out.Write("{0}{1} {2} at you.", Environment.NewLine, monster.GetTheName(true), rl > 80 ? monster.EvalPlural("screeches", "screech") : rl > 50 ? monster.EvalPlural("squawks", "squawk") : monster.EvalPlural("hisses", "hiss"));
+			}
+
+			// Jaldi'al the lich
+
+			else if (monster.Uid == 43)
+			{
+				Globals.Out.Write("{0}{1} {2} at you.", Environment.NewLine, monster.GetTheName(true), rl > 80 ? "hollowly chuckles" : rl > 50 ? "gestures" : "glares");
+			}
+
+			// Jungle bekkah
+
+			else if (monster.Uid == 44)
+			{
+				Globals.Out.Write("{0}{1} {2} at you.", Environment.NewLine, monster.GetTheName(true), rl > 80 ? monster.EvalPlural("roars", "roar") : rl > 50 ? monster.EvalPlural("snarls", "snarl") : monster.EvalPlural("hisses", "hiss"));
+			}
+			else
+			{
+				base.MonsterSmiles(monster);
+			}
+		}
+
 		public override void MonsterDies(IMonster OfMonster, IMonster DfMonster)	// Note: much more to implement here
 		{
 			Debug.Assert(DfMonster != null);
@@ -183,6 +258,15 @@ namespace TheVileGrimoireOfJaldial.Game
 			}
 
 			base.MonsterDies(OfMonster, DfMonster);
+		}
+
+		public override IList<IMonster> GetSmilingMonsterList(IRoom room, IMonster monster)
+		{
+			var monsterUids = new long[] { 13, 18, 19, 20, 22, 25, 31, 32, 38 };
+
+			// Some monsters don't emote
+
+			return base.GetSmilingMonsterList(room, monster).Where(m => !monsterUids.Contains(m.Uid)).ToList();
 		}
 
 		public override void CheckToExtinguishLightSource()
