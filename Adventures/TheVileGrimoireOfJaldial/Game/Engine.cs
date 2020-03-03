@@ -77,6 +77,8 @@ namespace TheVileGrimoireOfJaldial.Game
 				{ 4, new string[] { "small tomb door", "tomb door", "tomb", "door" } },
 				{ 5, new string[] { "crypt door", "door" } },
 				{ 6, new string[] { "bucket" } },
+				{ 8, new string[] { "stone coffin", "coffin" } },
+				{ 9, new string[] { "leather bound book", "leather book", "bound book", "book" } },
 				{ 10, new string[] { "gravestone", "stone" } },
 				{ 13, new string[] { "chest" } },
 				{ 14, new string[] { "old map", "map" } },

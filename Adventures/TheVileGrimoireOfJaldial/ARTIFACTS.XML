@@ -55,7 +55,7 @@
             <Simple name="IsCharOwned" value="False" />
             <Simple name="IsPlural" value="False" />
             <Simple name="IsListed" value="True" />
-            <Simple name="PluralType" value="S" />
+            <Simple name="PluralType" value="YIes" />
             <Simple name="Value" value="0" />
             <Simple name="Weight" value="0" />
             <Simple name="Location" value="0" />
@@ -75,8 +75,8 @@
             </SingleArray>
             <Simple name="Uid" value="2" />
             <Simple name="IsUidRecycled" value="True" />
-            <Simple name="Name" value="TODO2" />
-            <Simple name="Desc" value="TODO" />
+            <Simple name="Name" value="tapestry" />
+            <Simple name="Desc" value="You see a beautiful, but very worn, tapestry.  The colors and fabrics used were woven with delicate care." />
             <Null name="Synonyms" />
             <Simple name="Seen" value="False" />
             <Simple name="ArticleType" value="A" />
@@ -253,17 +253,17 @@
             <Simple name="IsCharOwned" value="False" />
             <Simple name="IsPlural" value="False" />
             <Simple name="IsListed" value="True" />
-            <Simple name="PluralType" value="S" />
+            <Simple name="PluralType" value="None" />
             <Simple name="Value" value="0" />
-            <Simple name="Weight" value="0" />
-            <Simple name="Location" value="0" />
+            <Simple name="Weight" value="999" />
+            <Simple name="Location" value="107" />
             <SingleArray name="Categories">
               <Items>
                 <Complex type="Eamon.Game.Primitive.Classes.ArtifactCategory, Eamon, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null">
                   <Properties>
-                    <Simple name="Type" value="Treasure" />
-                    <Simple name="Field1" value="0" />
-                    <Simple name="Field2" value="0" />
+                    <Simple name="Type" value="InContainer" />
+                    <Simple name="Field1" value="-1" />
+                    <Simple name="Field2" value="1" />
                     <Simple name="Field3" value="0" />
                     <Simple name="Field4" value="0" />
                     <Simple name="Field5" value="0" />
@@ -273,8 +273,8 @@
             </SingleArray>
             <Simple name="Uid" value="8" />
             <Simple name="IsUidRecycled" value="True" />
-            <Simple name="Name" value="TODO8" />
-            <Simple name="Desc" value="TODO" />
+            <Simple name="Name" value="sarcophagus" />
+            <Simple name="Desc" value="Set into a stone platform in the center of the room is a sarcophagus.  The lid is open, revealing a skeleton dressed in fine (but rotting) clothing." />
             <Null name="Synonyms" />
             <Simple name="Seen" value="False" />
             <Simple name="ArticleType" value="A" />
@@ -289,14 +289,14 @@
             <Simple name="PluralType" value="S" />
             <Simple name="Value" value="0" />
             <Simple name="Weight" value="0" />
-            <Simple name="Location" value="0" />
+            <Simple name="Location" value="1008" />
             <SingleArray name="Categories">
               <Items>
                 <Complex type="Eamon.Game.Primitive.Classes.ArtifactCategory, Eamon, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null">
                   <Properties>
-                    <Simple name="Type" value="Treasure" />
-                    <Simple name="Field1" value="0" />
-                    <Simple name="Field2" value="0" />
+                    <Simple name="Type" value="Readable" />
+                    <Simple name="Field1" value="103" />
+                    <Simple name="Field2" value="1" />
                     <Simple name="Field3" value="0" />
                     <Simple name="Field4" value="0" />
                     <Simple name="Field5" value="0" />
@@ -306,8 +306,8 @@
             </SingleArray>
             <Simple name="Uid" value="9" />
             <Simple name="IsUidRecycled" value="True" />
-            <Simple name="Name" value="TODO9" />
-            <Simple name="Desc" value="TODO" />
+            <Simple name="Name" value="leather-bound book" />
+            <Simple name="Desc" value="Clutched within the skeleton's hands is a leather-bound book.  The cover is remarkably well preserved and bears many glowing runes." />
             <Null name="Synonyms" />
             <Simple name="Seen" value="False" />
             <Simple name="ArticleType" value="A" />
