@@ -1947,7 +1947,7 @@
             <Simple name="Uid" value="59" />
             <Simple name="IsUidRecycled" value="True" />
             <Simple name="Name" value="cliff" />
-            <Simple name="Desc" value="The huge cliff blocks movement in southern and western directions. here, at the middle of the cliff is an entrance into a dark cave." />
+            <Simple name="Desc" value="The huge cliff blocks movement in southern and western directions. Here, at the middle of the cliff is an entrance into a dark cave." />
             <Null name="Synonyms" />
             <Simple name="Seen" value="True" />
             <Simple name="ArticleType" value="The" />
