@@ -682,7 +682,7 @@
             <Simple name="IsCharOwned" value="False" />
             <Simple name="IsPlural" value="False" />
             <Simple name="IsListed" value="True" />
-            <Simple name="PluralType" value="S" />
+            <Simple name="PluralType" value="None" />
             <Simple name="Value" value="0" />
             <Simple name="Weight" value="0" />
             <Simple name="Location" value="0" />
@@ -702,8 +702,8 @@
             </SingleArray>
             <Simple name="Uid" value="21" />
             <Simple name="IsUidRecycled" value="True" />
-            <Simple name="Name" value="TODO21" />
-            <Simple name="Desc" value="TODO" />
+            <Simple name="Name" value="pouch containing stones" />
+				 <Simple name="Desc" value="You find a small pouch containing some precious stones:  three emeralds, two small rubies and a single diamond." />
             <Null name="Synonyms" />
             <Simple name="Seen" value="False" />
             <Simple name="ArticleType" value="A" />
@@ -849,8 +849,8 @@
             <Simple name="IsListed" value="True" />
             <Simple name="PluralType" value="S" />
             <Simple name="Value" value="0" />
-            <Simple name="Weight" value="0" />
-            <Simple name="Location" value="0" />
+            <Simple name="Weight" value="-999" />
+            <Simple name="Location" value="117" />
             <SingleArray name="Categories">
               <Items>
                 <Complex type="Eamon.Game.Primitive.Classes.ArtifactCategory, Eamon, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null">
@@ -867,8 +867,8 @@
             </SingleArray>
             <Simple name="Uid" value="26" />
             <Simple name="IsUidRecycled" value="True" />
-            <Simple name="Name" value="TODO26" />
-            <Simple name="Desc" value="TODO" />
+            <Simple name="Name" value="wooden throne" />
+            <Simple name="Desc" value="You see the stump of a tree which has been carved into a wooden throne." />
             <Null name="Synonyms" />
             <Simple name="Seen" value="False" />
             <Simple name="ArticleType" value="A" />
@@ -880,7 +880,7 @@
             <Simple name="IsCharOwned" value="False" />
             <Simple name="IsPlural" value="False" />
             <Simple name="IsListed" value="True" />
-            <Simple name="PluralType" value="S" />
+            <Simple name="PluralType" value="None" />
             <Simple name="Value" value="0" />
             <Simple name="Weight" value="0" />
             <Simple name="Location" value="0" />
@@ -900,8 +900,8 @@
             </SingleArray>
             <Simple name="Uid" value="27" />
             <Simple name="IsUidRecycled" value="True" />
-            <Simple name="Name" value="TODO27" />
-            <Simple name="Desc" value="TODO" />
+            <Simple name="Name" value="book of runes" />
+				 <Simple name="Desc" value="You see a faintly glowing manuscript, bearing the title &quot;TODO&quot;." />
             <Null name="Synonyms" />
             <Simple name="Seen" value="False" />
             <Simple name="ArticleType" value="A" />
@@ -949,25 +949,25 @@
             <Simple name="PluralType" value="S" />
             <Simple name="Value" value="0" />
             <Simple name="Weight" value="0" />
-            <Simple name="Location" value="0" />
+            <Simple name="Location" value="-47" />
             <SingleArray name="Categories">
               <Items>
                 <Complex type="Eamon.Game.Primitive.Classes.ArtifactCategory, Eamon, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null">
                   <Properties>
-                    <Simple name="Type" value="Treasure" />
+                    <Simple name="Type" value="Weapon" />
                     <Simple name="Field1" value="0" />
-                    <Simple name="Field2" value="0" />
-                    <Simple name="Field3" value="0" />
-                    <Simple name="Field4" value="0" />
-                    <Simple name="Field5" value="0" />
+                    <Simple name="Field2" value="3" />
+                    <Simple name="Field3" value="1" />
+                    <Simple name="Field4" value="6" />
+                    <Simple name="Field5" value="1" />
                   </Properties>
                 </Complex>
               </Items>
             </SingleArray>
             <Simple name="Uid" value="29" />
             <Simple name="IsUidRecycled" value="True" />
-            <Simple name="Name" value="TODO29" />
-            <Simple name="Desc" value="TODO" />
+            <Simple name="Name" value="large mace" />
+            <Simple name="Desc" value="You see a large mace here, with a leather-bound grip." />
             <Null name="Synonyms" />
             <Simple name="Seen" value="False" />
             <Simple name="ArticleType" value="A" />
@@ -982,25 +982,25 @@
             <Simple name="PluralType" value="S" />
             <Simple name="Value" value="0" />
             <Simple name="Weight" value="0" />
-            <Simple name="Location" value="0" />
+            <Simple name="Location" value="-48" />
             <SingleArray name="Categories">
               <Items>
                 <Complex type="Eamon.Game.Primitive.Classes.ArtifactCategory, Eamon, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null">
                   <Properties>
-                    <Simple name="Type" value="Treasure" />
-                    <Simple name="Field1" value="0" />
-                    <Simple name="Field2" value="0" />
-                    <Simple name="Field3" value="0" />
-                    <Simple name="Field4" value="0" />
-                    <Simple name="Field5" value="0" />
+                    <Simple name="Type" value="Weapon" />
+                    <Simple name="Field1" value="10" />
+                    <Simple name="Field2" value="3" />
+                    <Simple name="Field3" value="2" />
+                    <Simple name="Field4" value="4" />
+                    <Simple name="Field5" value="1" />
                   </Properties>
                 </Complex>
               </Items>
             </SingleArray>
             <Simple name="Uid" value="30" />
             <Simple name="IsUidRecycled" value="True" />
-            <Simple name="Name" value="TODO30" />
-            <Simple name="Desc" value="TODO" />
+            <Simple name="Name" value="maul" />
+            <Simple name="Desc" value="You see Dubro's maul, a long oaken stick with a ball and chain attached.  Looks pretty lethal." />
             <Null name="Synonyms" />
             <Simple name="Seen" value="False" />
             <Simple name="ArticleType" value="A" />
@@ -1015,25 +1015,25 @@
             <Simple name="PluralType" value="S" />
             <Simple name="Value" value="0" />
             <Simple name="Weight" value="0" />
-            <Simple name="Location" value="0" />
+            <Simple name="Location" value="-49" />
             <SingleArray name="Categories">
               <Items>
                 <Complex type="Eamon.Game.Primitive.Classes.ArtifactCategory, Eamon, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null">
                   <Properties>
-                    <Simple name="Type" value="Treasure" />
-                    <Simple name="Field1" value="0" />
-                    <Simple name="Field2" value="0" />
-                    <Simple name="Field3" value="0" />
-                    <Simple name="Field4" value="0" />
-                    <Simple name="Field5" value="0" />
+                    <Simple name="Type" value="Weapon" />
+                    <Simple name="Field1" value="25" />
+                    <Simple name="Field2" value="5" />
+                    <Simple name="Field3" value="3" />
+                    <Simple name="Field4" value="4" />
+                    <Simple name="Field5" value="2" />
                   </Properties>
                 </Complex>
               </Items>
             </SingleArray>
             <Simple name="Uid" value="31" />
             <Simple name="IsUidRecycled" value="True" />
-            <Simple name="Name" value="TODO31" />
-            <Simple name="Desc" value="TODO" />
+            <Simple name="Name" value="claymore" />
+            <Simple name="Desc" value="You see Joque's claymore, a long two-handed sword with many intricate carvings engraved into the blade and hilt." />
             <Null name="Synonyms" />
             <Simple name="Seen" value="False" />
             <Simple name="ArticleType" value="A" />
@@ -1048,25 +1048,25 @@
             <Simple name="PluralType" value="S" />
             <Simple name="Value" value="0" />
             <Simple name="Weight" value="0" />
-            <Simple name="Location" value="0" />
+            <Simple name="Location" value="-50" />
             <SingleArray name="Categories">
               <Items>
                 <Complex type="Eamon.Game.Primitive.Classes.ArtifactCategory, Eamon, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null">
                   <Properties>
-                    <Simple name="Type" value="Treasure" />
-                    <Simple name="Field1" value="0" />
-                    <Simple name="Field2" value="0" />
-                    <Simple name="Field3" value="0" />
-                    <Simple name="Field4" value="0" />
-                    <Simple name="Field5" value="0" />
+                    <Simple name="Type" value="Weapon" />
+                    <Simple name="Field1" value="15" />
+                    <Simple name="Field2" value="4" />
+                    <Simple name="Field3" value="1" />
+                    <Simple name="Field4" value="4" />
+                    <Simple name="Field5" value="1" />
                   </Properties>
                 </Complex>
               </Items>
             </SingleArray>
             <Simple name="Uid" value="32" />
             <Simple name="IsUidRecycled" value="True" />
-            <Simple name="Name" value="TODO32" />
-            <Simple name="Desc" value="TODO" />
+            <Simple name="Name" value="dirk" />
+            <Simple name="Desc" value="You see a long dagger here, lying on the ground.  It appears to be a stabbing weapon - the point is sharp, but the blade is dull." />
             <Null name="Synonyms" />
             <Simple name="Seen" value="False" />
             <Simple name="ArticleType" value="A" />
