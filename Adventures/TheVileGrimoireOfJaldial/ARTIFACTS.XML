@@ -703,7 +703,7 @@
             <Simple name="Uid" value="21" />
             <Simple name="IsUidRecycled" value="True" />
             <Simple name="Name" value="pouch containing stones" />
-				 <Simple name="Desc" value="You find a small pouch containing some precious stones:  three emeralds, two small rubies and a single diamond." />
+            <Simple name="Desc" value="You find a small pouch containing some precious stones:  three emeralds, two small rubies and a single diamond." />
             <Null name="Synonyms" />
             <Simple name="Seen" value="False" />
             <Simple name="ArticleType" value="A" />
@@ -901,7 +901,7 @@
             <Simple name="Uid" value="27" />
             <Simple name="IsUidRecycled" value="True" />
             <Simple name="Name" value="book of runes" />
-				 <Simple name="Desc" value="You see a faintly glowing manuscript, bearing the title &quot;TODO&quot;." />
+            <Simple name="Desc" value="You see a faintly glowing manuscript, bearing the title &quot;TODO&quot;." />
             <Null name="Synonyms" />
             <Simple name="Seen" value="False" />
             <Simple name="ArticleType" value="A" />
