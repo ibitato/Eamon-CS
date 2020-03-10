@@ -140,6 +140,8 @@ namespace TheVileGrimoireOfJaldial.Game
 				{ 13, new string[] { "jelly" } },
 				{ 20, new string[] { "bloodnettle" } },
 				{ 21, new string[] { "hood" } },
+				{ 22, new string[] { "weed" } },
+				{ 23, new string[] { "animated armor", "suit of armor", "armor" } },
 				{ 24, new string[] { "dragon" } },
 				{ 25, new string[] { "amoeba" } },
 				{ 31, new string[] { "possessed sword", "cutlass", "sword" } },
