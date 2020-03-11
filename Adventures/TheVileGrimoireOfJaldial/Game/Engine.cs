@@ -107,6 +107,17 @@ namespace TheVileGrimoireOfJaldial.Game
 				{ 36, new string[] { "skeleton", "bones" } },
 				{ 37, new string[] { "cross" } },
 				{ 38, new string[] { "coil" } },
+				{ 41, new string[] { "dead tree" } },
+				{ 42, new string[] { "dead weed" } },
+				{ 44, new string[] { "dead dragon" } },
+				{ 45, new string[] { "dead crimson amoeba", "dead amoeba", "wine" } },
+				{ 47, new string[] { "dead crayfish" } },
+				{ 48, new string[] { "dead scorpion" } },
+				{ 50, new string[] { "Jaldial the lich's remains", "Jaldi'al's remains", "Jaldial's remains", "lich's remains", "lich remains", "remains", "dead lich" } },
+				{ 51, new string[] { "dead Reginald" } },
+				{ 52, new string[] { "dead Dubro" } },
+				{ 53, new string[] { "dead Joque" } },
+				{ 54, new string[] { "dead Trevor" } },
 			};
 
 			foreach (var synonym in synonyms)
