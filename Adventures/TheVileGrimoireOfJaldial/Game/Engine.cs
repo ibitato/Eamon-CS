@@ -156,10 +156,13 @@ namespace TheVileGrimoireOfJaldial.Game
 				{ 24, new string[] { "dragon" } },
 				{ 25, new string[] { "amoeba" } },
 				{ 31, new string[] { "possessed sword", "cutlass", "sword" } },
+				{ 32, new string[] { "statues" } },
 				{ 37, new string[] { "crayfish" } },
 				{ 38, new string[] { "weird" } },
 				{ 39, new string[] { "scorpion" } },
+				{ 41, new string[] { "griffins" } },
 				{ 43, new string[] { "jaldial", "lich" } },
+				{ 44, new string[] { "jungle cats", "bekkahs", "cats" } },
 				{ 50, new string[] { "genie" } },
 			};
 

@@ -861,23 +861,23 @@
             <Simple name="StateDesc" value="" />
             <Simple name="IsListed" value="True" />
             <Simple name="PluralType" value="S" />
-            <Simple name="Hardiness" value="1" />
-            <Simple name="Agility" value="1" />
-            <Simple name="GroupCount" value="1" />
+            <Simple name="Hardiness" value="13" />
+            <Simple name="Agility" value="16" />
+            <Simple name="GroupCount" value="5" />
             <Simple name="AttackCount" value="1" />
-            <Simple name="Courage" value="100" />
-            <Simple name="Location" value="0" />
+            <Simple name="Courage" value="40" />
+            <Simple name="Location" value="82" />
             <Simple name="CombatCode" value="Weapons" />
-            <Simple name="Armor" value="0" />
+            <Simple name="Armor" value="3" />
             <Simple name="Weapon" value="0" />
             <Simple name="NwDice" value="1" />
-            <Simple name="NwSides" value="1" />
+            <Simple name="NwSides" value="6" />
             <Simple name="DeadBody" value="0" />
-            <Simple name="Friendliness" value="Neutral" />
+            <Simple name="Friendliness" value="100" />
             <Simple name="Gender" value="Neutral" />
             <Simple name="InitGroupCount" value="0" />
-            <Simple name="OrigGroupCount" value="1" />
-            <Simple name="OrigFriendliness" value="150" />
+            <Simple name="OrigGroupCount" value="5" />
+            <Simple name="OrigFriendliness" value="100" />
             <Simple name="DmgTaken" value="0" />
             <Simple name="Field1" value="0" />
             <Simple name="Field2" value="0" />
@@ -917,8 +917,8 @@
             <Simple name="Field2" value="0" />
             <Simple name="Uid" value="27" />
             <Simple name="IsUidRecycled" value="True" />
-            <Simple name="Name" value="TODO27" />
-            <Simple name="Desc" value="TODO" />
+            <Simple name="Name" value="UNUSED27" />
+            <Simple name="Desc" value="UNUSED" />
             <Null name="Synonyms" />
             <Simple name="Seen" value="False" />
             <Simple name="ArticleType" value="A" />
@@ -951,8 +951,8 @@
             <Simple name="Field2" value="0" />
             <Simple name="Uid" value="28" />
             <Simple name="IsUidRecycled" value="True" />
-            <Simple name="Name" value="TODO28" />
-            <Simple name="Desc" value="TODO" />
+            <Simple name="Name" value="UNUSED28" />
+            <Simple name="Desc" value="UNUSED" />
             <Null name="Synonyms" />
             <Simple name="Seen" value="False" />
             <Simple name="ArticleType" value="A" />
@@ -985,8 +985,8 @@
             <Simple name="Field2" value="0" />
             <Simple name="Uid" value="29" />
             <Simple name="IsUidRecycled" value="True" />
-            <Simple name="Name" value="TODO29" />
-            <Simple name="Desc" value="TODO" />
+            <Simple name="Name" value="UNUSED29" />
+            <Simple name="Desc" value="UNUSED" />
             <Null name="Synonyms" />
             <Simple name="Seen" value="False" />
             <Simple name="ArticleType" value="A" />
@@ -1019,8 +1019,8 @@
             <Simple name="Field2" value="0" />
             <Simple name="Uid" value="30" />
             <Simple name="IsUidRecycled" value="True" />
-            <Simple name="Name" value="TODO30" />
-            <Simple name="Desc" value="TODO" />
+            <Simple name="Name" value="UNUSED30" />
+            <Simple name="Desc" value="UNUSED" />
             <Null name="Synonyms" />
             <Simple name="Seen" value="False" />
             <Simple name="ArticleType" value="A" />
@@ -1065,23 +1065,23 @@
             <Simple name="StateDesc" value="" />
             <Simple name="IsListed" value="True" />
             <Simple name="PluralType" value="S" />
-            <Simple name="Hardiness" value="1" />
-            <Simple name="Agility" value="1" />
-            <Simple name="GroupCount" value="1" />
-            <Simple name="AttackCount" value="1" />
+            <Simple name="Hardiness" value="20" />
+            <Simple name="Agility" value="12" />
+            <Simple name="GroupCount" value="4" />
+            <Simple name="AttackCount" value="-2" />
             <Simple name="Courage" value="100" />
-            <Simple name="Location" value="0" />
+            <Simple name="Location" value="87" />
             <Simple name="CombatCode" value="Weapons" />
-            <Simple name="Armor" value="0" />
+            <Simple name="Armor" value="2" />
             <Simple name="Weapon" value="0" />
             <Simple name="NwDice" value="1" />
-            <Simple name="NwSides" value="1" />
+            <Simple name="NwSides" value="6" />
             <Simple name="DeadBody" value="0" />
-            <Simple name="Friendliness" value="Neutral" />
+            <Simple name="Friendliness" value="100" />
             <Simple name="Gender" value="Neutral" />
             <Simple name="InitGroupCount" value="0" />
-            <Simple name="OrigGroupCount" value="1" />
-            <Simple name="OrigFriendliness" value="150" />
+            <Simple name="OrigGroupCount" value="4" />
+            <Simple name="OrigFriendliness" value="100" />
             <Simple name="DmgTaken" value="0" />
             <Simple name="Field1" value="0" />
             <Simple name="Field2" value="0" />
@@ -1121,8 +1121,8 @@
             <Simple name="Field2" value="0" />
             <Simple name="Uid" value="33" />
             <Simple name="IsUidRecycled" value="True" />
-            <Simple name="Name" value="TODO33" />
-            <Simple name="Desc" value="TODO" />
+            <Simple name="Name" value="UNUSED33" />
+            <Simple name="Desc" value="UNUSED" />
             <Null name="Synonyms" />
             <Simple name="Seen" value="False" />
             <Simple name="ArticleType" value="A" />
@@ -1155,8 +1155,8 @@
             <Simple name="Field2" value="0" />
             <Simple name="Uid" value="34" />
             <Simple name="IsUidRecycled" value="True" />
-            <Simple name="Name" value="TODO34" />
-            <Simple name="Desc" value="TODO" />
+            <Simple name="Name" value="UNUSED34" />
+            <Simple name="Desc" value="UNUSED" />
             <Null name="Synonyms" />
             <Simple name="Seen" value="False" />
             <Simple name="ArticleType" value="A" />
@@ -1189,8 +1189,8 @@
             <Simple name="Field2" value="0" />
             <Simple name="Uid" value="35" />
             <Simple name="IsUidRecycled" value="True" />
-            <Simple name="Name" value="TODO35" />
-            <Simple name="Desc" value="TODO" />
+            <Simple name="Name" value="UNUSED35" />
+            <Simple name="Desc" value="UNUSED" />
             <Null name="Synonyms" />
             <Simple name="Seen" value="False" />
             <Simple name="ArticleType" value="A" />
@@ -1371,22 +1371,22 @@
             <Simple name="StateDesc" value="" />
             <Simple name="IsListed" value="True" />
             <Simple name="PluralType" value="S" />
-            <Simple name="Hardiness" value="1" />
+            <Simple name="Hardiness" value="8" />
             <Simple name="Agility" value="1" />
-            <Simple name="GroupCount" value="1" />
+            <Simple name="GroupCount" value="2" />
             <Simple name="AttackCount" value="1" />
-            <Simple name="Courage" value="100" />
-            <Simple name="Location" value="0" />
+            <Simple name="Courage" value="25" />
+            <Simple name="Location" value="113" />
             <Simple name="CombatCode" value="Weapons" />
-            <Simple name="Armor" value="0" />
+            <Simple name="Armor" value="1" />
             <Simple name="Weapon" value="0" />
             <Simple name="NwDice" value="1" />
-            <Simple name="NwSides" value="1" />
+            <Simple name="NwSides" value="2" />
             <Simple name="DeadBody" value="0" />
             <Simple name="Friendliness" value="Neutral" />
             <Simple name="Gender" value="Neutral" />
             <Simple name="InitGroupCount" value="0" />
-            <Simple name="OrigGroupCount" value="1" />
+            <Simple name="OrigGroupCount" value="2" />
             <Simple name="OrigFriendliness" value="150" />
             <Simple name="DmgTaken" value="0" />
             <Simple name="Field1" value="0" />
@@ -1427,8 +1427,8 @@
             <Simple name="Field2" value="0" />
             <Simple name="Uid" value="42" />
             <Simple name="IsUidRecycled" value="True" />
-            <Simple name="Name" value="TODO42" />
-            <Simple name="Desc" value="TODO" />
+            <Simple name="Name" value="UNUSED42" />
+            <Simple name="Desc" value="UNUSED" />
             <Null name="Synonyms" />
             <Simple name="Seen" value="False" />
             <Simple name="ArticleType" value="A" />
@@ -1473,23 +1473,23 @@
             <Simple name="StateDesc" value="" />
             <Simple name="IsListed" value="True" />
             <Simple name="PluralType" value="S" />
-            <Simple name="Hardiness" value="1" />
-            <Simple name="Agility" value="1" />
-            <Simple name="GroupCount" value="1" />
-            <Simple name="AttackCount" value="1" />
-            <Simple name="Courage" value="100" />
-            <Simple name="Location" value="0" />
+            <Simple name="Hardiness" value="45" />
+            <Simple name="Agility" value="13" />
+            <Simple name="GroupCount" value="2" />
+            <Simple name="AttackCount" value="-2" />
+            <Simple name="Courage" value="90" />
+            <Simple name="Location" value="117" />
             <Simple name="CombatCode" value="Weapons" />
-            <Simple name="Armor" value="0" />
+            <Simple name="Armor" value="3" />
             <Simple name="Weapon" value="0" />
             <Simple name="NwDice" value="1" />
-            <Simple name="NwSides" value="1" />
+            <Simple name="NwSides" value="7" />
             <Simple name="DeadBody" value="0" />
-            <Simple name="Friendliness" value="Neutral" />
+            <Simple name="Friendliness" value="100" />
             <Simple name="Gender" value="Neutral" />
             <Simple name="InitGroupCount" value="0" />
-            <Simple name="OrigGroupCount" value="1" />
-            <Simple name="OrigFriendliness" value="150" />
+            <Simple name="OrigGroupCount" value="2" />
+            <Simple name="OrigFriendliness" value="100" />
             <Simple name="DmgTaken" value="0" />
             <Simple name="Field1" value="0" />
             <Simple name="Field2" value="0" />
@@ -1529,8 +1529,8 @@
             <Simple name="Field2" value="0" />
             <Simple name="Uid" value="45" />
             <Simple name="IsUidRecycled" value="True" />
-            <Simple name="Name" value="TODO45" />
-            <Simple name="Desc" value="TODO" />
+            <Simple name="Name" value="UNUSED45" />
+            <Simple name="Desc" value="UNUSED" />
             <Null name="Synonyms" />
             <Simple name="Seen" value="False" />
             <Simple name="ArticleType" value="A" />
