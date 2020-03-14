@@ -600,7 +600,7 @@
             <Simple name="Weapon" value="0" />
             <Simple name="NwDice" value="1" />
             <Simple name="NwSides" value="1" />
-            <Simple name="DeadBody" value="0" />
+            <Simple name="DeadBody" value="41" />
             <Simple name="Friendliness" value="Neutral" />
             <Simple name="Gender" value="Neutral" />
             <Simple name="InitGroupCount" value="0" />
@@ -611,8 +611,8 @@
             <Simple name="Field2" value="0" />
             <Simple name="Uid" value="18" />
             <Simple name="IsUidRecycled" value="True" />
-            <Simple name="Name" value="TODO18" />
-            <Simple name="Desc" value="TODO18" />
+            <Simple name="Name" value="UNUSED18" />
+            <Simple name="Desc" value="UNUSED" />
             <Null name="Synonyms" />
             <Simple name="Seen" value="False" />
             <Simple name="ArticleType" value="A" />
@@ -634,7 +634,7 @@
             <Simple name="Weapon" value="0" />
             <Simple name="NwDice" value="1" />
             <Simple name="NwSides" value="4" />
-            <Simple name="DeadBody" value="41" />
+            <Simple name="DeadBody" value="42" />
             <Simple name="Friendliness" value="100" />
             <Simple name="Gender" value="Neutral" />
             <Simple name="InitGroupCount" value="0" />
@@ -657,23 +657,23 @@
             <Simple name="StateDesc" value="" />
             <Simple name="IsListed" value="True" />
             <Simple name="PluralType" value="S" />
-            <Simple name="Hardiness" value="1" />
-            <Simple name="Agility" value="1" />
+            <Simple name="Hardiness" value="15" />
+            <Simple name="Agility" value="11" />
             <Simple name="GroupCount" value="1" />
             <Simple name="AttackCount" value="1" />
-            <Simple name="Courage" value="100" />
-            <Simple name="Location" value="0" />
+            <Simple name="Courage" value="0" />
+            <Simple name="Location" value="18" />
             <Simple name="CombatCode" value="Weapons" />
-            <Simple name="Armor" value="0" />
+            <Simple name="Armor" value="1" />
             <Simple name="Weapon" value="0" />
             <Simple name="NwDice" value="1" />
-            <Simple name="NwSides" value="1" />
-            <Simple name="DeadBody" value="0" />
-            <Simple name="Friendliness" value="Neutral" />
+            <Simple name="NwSides" value="4" />
+            <Simple name="DeadBody" value="43" />
+            <Simple name="Friendliness" value="100" />
             <Simple name="Gender" value="Neutral" />
             <Simple name="InitGroupCount" value="0" />
             <Simple name="OrigGroupCount" value="1" />
-            <Simple name="OrigFriendliness" value="150" />
+            <Simple name="OrigFriendliness" value="100" />
             <Simple name="DmgTaken" value="0" />
             <Simple name="Field1" value="0" />
             <Simple name="Field2" value="0" />
@@ -702,7 +702,7 @@
             <Simple name="Weapon" value="0" />
             <Simple name="NwDice" value="1" />
             <Simple name="NwSides" value="7" />
-            <Simple name="DeadBody" value="0" />
+            <Simple name="DeadBody" value="44" />
             <Simple name="Friendliness" value="100" />
             <Simple name="Gender" value="Neutral" />
             <Simple name="InitGroupCount" value="0" />
@@ -736,7 +736,7 @@
             <Simple name="Weapon" value="0" />
             <Simple name="NwDice" value="1" />
             <Simple name="NwSides" value="8" />
-            <Simple name="DeadBody" value="42" />
+            <Simple name="DeadBody" value="45" />
             <Simple name="Friendliness" value="100" />
             <Simple name="Gender" value="Neutral" />
             <Simple name="InitGroupCount" value="0" />
@@ -770,7 +770,7 @@
             <Simple name="Weapon" value="0" />
             <Simple name="NwDice" value="1" />
             <Simple name="NwSides" value="4" />
-            <Simple name="DeadBody" value="43" />
+            <Simple name="DeadBody" value="46" />
             <Simple name="Friendliness" value="100" />
             <Simple name="Gender" value="Neutral" />
             <Simple name="InitGroupCount" value="0" />
@@ -804,7 +804,7 @@
             <Simple name="Weapon" value="0" />
             <Simple name="NwDice" value="1" />
             <Simple name="NwSides" value="4" />
-            <Simple name="DeadBody" value="44" />
+            <Simple name="DeadBody" value="47" />
             <Simple name="Friendliness" value="150" />
             <Simple name="Gender" value="Neutral" />
             <Simple name="InitGroupCount" value="0" />
@@ -838,7 +838,7 @@
             <Simple name="Weapon" value="0" />
             <Simple name="NwDice" value="1" />
             <Simple name="NwSides" value="6" />
-            <Simple name="DeadBody" value="45" />
+            <Simple name="DeadBody" value="48" />
             <Simple name="Friendliness" value="100" />
             <Simple name="Gender" value="Neutral" />
             <Simple name="InitGroupCount" value="0" />
@@ -872,7 +872,7 @@
             <Simple name="Weapon" value="0" />
             <Simple name="NwDice" value="1" />
             <Simple name="NwSides" value="6" />
-            <Simple name="DeadBody" value="0" />
+            <Simple name="DeadBody" value="49" />
             <Simple name="Friendliness" value="100" />
             <Simple name="Gender" value="Neutral" />
             <Simple name="InitGroupCount" value="0" />
@@ -1076,7 +1076,7 @@
             <Simple name="Weapon" value="0" />
             <Simple name="NwDice" value="1" />
             <Simple name="NwSides" value="6" />
-            <Simple name="DeadBody" value="0" />
+            <Simple name="DeadBody" value="50" />
             <Simple name="Friendliness" value="100" />
             <Simple name="Gender" value="Neutral" />
             <Simple name="InitGroupCount" value="0" />
@@ -1212,7 +1212,7 @@
             <Simple name="Weapon" value="0" />
             <Simple name="NwDice" value="1" />
             <Simple name="NwSides" value="5" />
-            <Simple name="DeadBody" value="46" />
+            <Simple name="DeadBody" value="51" />
             <Simple name="Friendliness" value="105" />
             <Simple name="Gender" value="Neutral" />
             <Simple name="InitGroupCount" value="0" />
@@ -1246,7 +1246,7 @@
             <Simple name="Weapon" value="0" />
             <Simple name="NwDice" value="2" />
             <Simple name="NwSides" value="6" />
-            <Simple name="DeadBody" value="47" />
+            <Simple name="DeadBody" value="52" />
             <Simple name="Friendliness" value="100" />
             <Simple name="Gender" value="Neutral" />
             <Simple name="InitGroupCount" value="0" />
@@ -1314,7 +1314,7 @@
             <Simple name="Weapon" value="0" />
             <Simple name="NwDice" value="1" />
             <Simple name="NwSides" value="10" />
-            <Simple name="DeadBody" value="48" />
+            <Simple name="DeadBody" value="53" />
             <Simple name="Friendliness" value="100" />
             <Simple name="Gender" value="Neutral" />
             <Simple name="InitGroupCount" value="0" />
@@ -1348,7 +1348,7 @@
             <Simple name="Weapon" value="0" />
             <Simple name="NwDice" value="1" />
             <Simple name="NwSides" value="4" />
-            <Simple name="DeadBody" value="49" />
+            <Simple name="DeadBody" value="54" />
             <Simple name="Friendliness" value="100" />
             <Simple name="Gender" value="Neutral" />
             <Simple name="InitGroupCount" value="0" />
@@ -1382,7 +1382,7 @@
             <Simple name="Weapon" value="0" />
             <Simple name="NwDice" value="1" />
             <Simple name="NwSides" value="2" />
-            <Simple name="DeadBody" value="0" />
+            <Simple name="DeadBody" value="55" />
             <Simple name="Friendliness" value="Neutral" />
             <Simple name="Gender" value="Neutral" />
             <Simple name="InitGroupCount" value="0" />
@@ -1450,7 +1450,7 @@
             <Simple name="Weapon" value="0" />
             <Simple name="NwDice" value="1" />
             <Simple name="NwSides" value="7" />
-            <Simple name="DeadBody" value="50" />
+            <Simple name="DeadBody" value="56" />
             <Simple name="Friendliness" value="100" />
             <Simple name="Gender" value="Neutral" />
             <Simple name="InitGroupCount" value="0" />
@@ -1484,7 +1484,7 @@
             <Simple name="Weapon" value="0" />
             <Simple name="NwDice" value="1" />
             <Simple name="NwSides" value="7" />
-            <Simple name="DeadBody" value="0" />
+            <Simple name="DeadBody" value="57" />
             <Simple name="Friendliness" value="100" />
             <Simple name="Gender" value="Neutral" />
             <Simple name="InitGroupCount" value="0" />
@@ -1552,7 +1552,7 @@
             <Simple name="Weapon" value="29" />
             <Simple name="NwDice" value="0" />
             <Simple name="NwSides" value="0" />
-            <Simple name="DeadBody" value="51" />
+            <Simple name="DeadBody" value="58" />
             <Simple name="Friendliness" value="190" />
             <Simple name="Gender" value="Male" />
             <Simple name="InitGroupCount" value="0" />
@@ -1586,7 +1586,7 @@
             <Simple name="Weapon" value="30" />
             <Simple name="NwDice" value="0" />
             <Simple name="NwSides" value="0" />
-            <Simple name="DeadBody" value="52" />
+            <Simple name="DeadBody" value="59" />
             <Simple name="Friendliness" value="195" />
             <Simple name="Gender" value="Male" />
             <Simple name="InitGroupCount" value="0" />
@@ -1620,7 +1620,7 @@
             <Simple name="Weapon" value="31" />
             <Simple name="NwDice" value="0" />
             <Simple name="NwSides" value="0" />
-            <Simple name="DeadBody" value="53" />
+            <Simple name="DeadBody" value="60" />
             <Simple name="Friendliness" value="190" />
             <Simple name="Gender" value="Male" />
             <Simple name="InitGroupCount" value="0" />
@@ -1654,7 +1654,7 @@
             <Simple name="Weapon" value="32" />
             <Simple name="NwDice" value="0" />
             <Simple name="NwSides" value="0" />
-            <Simple name="DeadBody" value="54" />
+            <Simple name="DeadBody" value="61" />
             <Simple name="Friendliness" value="190" />
             <Simple name="Gender" value="Male" />
             <Simple name="InitGroupCount" value="0" />
